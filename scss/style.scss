@@ -1,6 +1,7 @@
 @use 'variables';
-
+@use 'header';
 
 body {
     background-color: variables.$background-color;
+    font-family: variables.$font-style;
 }
