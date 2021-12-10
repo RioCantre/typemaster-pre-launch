@@ -16,6 +16,15 @@ header button {
   text-transform: uppercase;
   font-style: normal;
   width: 170px;
+  cursor: pointer;
+}
+header button:hover {
+  background-color: #162441;
+  color: white;
+}
+
+main img {
+  background-color: #f06819;
 }
 
 footer {

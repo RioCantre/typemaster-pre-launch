@@ -18,5 +18,11 @@ header {
         text-transform: uppercase;
         font-style: normal;
         width: 170px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: variables.$secondary-color;
+            color: variables.$background-color;
+        }
     }
 }

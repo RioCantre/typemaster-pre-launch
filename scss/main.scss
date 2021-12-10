@@ -1,0 +1,9 @@
+@use 'variables';
+
+main {
+
+
+    img {
+        background-color: variables.$primary-color;
+    }
+}
