@@ -60,6 +60,7 @@ main .second-content .second-content-img {
   align-items: center;
 }
 main .second-content .second-content-img img.img-1 {
+  background-color: #f06819;
   width: 230px;
   height: 193px;
   margin-left: -1rem;
@@ -119,13 +120,25 @@ main .third-content p {
   font-size: 16px;
   line-height: 26px;
   color: #7b8cad;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 main .third-content .compatible,
 main .third-content .bluetooth,
 main .third-content .battery,
 main .third-content .light {
-  margin: 6rem 0;
+  margin: 3rem 0;
+}
+main .third-content .compatible img {
+  padding: 1.3rem 1.2rem;
+}
+main .third-content .bluetooth img {
+  padding: 1.1rem 1.4rem;
+}
+main .third-content .battery img {
+  padding: 1.3rem 1.1rem;
+}
+main .third-content .light img {
+  padding: 1.1rem;
 }
 
 /*# sourceMappingURL=main.css.map */

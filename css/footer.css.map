@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/footer.scss","../scss/variables.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;AAEA;EACI,OCCU;EDAV;EACA;;AAEA;EACI","file":"footer.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/footer.scss","../scss/variables.scss"],"names":[],"mappings":"AAEA;EACI;EACA;;AAEA;EACI,OCCU;EDAV;EACA;EACA;;AAEA;EACI","file":"footer.css"}
