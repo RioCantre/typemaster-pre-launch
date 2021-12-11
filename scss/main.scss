@@ -104,5 +104,26 @@ main {
             }
         }
     }
+    
+    .second-content-info {
+        text-align: center;
+        padding: 1rem;
+
+        h2 {
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            text-transform: uppercase;
+            color: variables.$font-color-dark;
+            padding: 2rem;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: variables.$font-color-light;
+        }
+    }
 
 }

@@ -105,6 +105,24 @@ main .second-content .second-content-img img.img-2 {
   margin-top: 2rem;
   border-radius: 1rem;
 }
+main .second-content-info {
+  text-align: center;
+  padding: 1rem;
+}
+main .second-content-info h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #152441;
+  padding: 2rem;
+}
+main .second-content-info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8cad;
+}
 
 footer {
   text-align: center;
