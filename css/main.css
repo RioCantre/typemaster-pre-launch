@@ -47,17 +47,12 @@ main .first-content .heading-btn span {
   letter-spacing: 0.1rem;
 }
 main .first-content .heading-img img {
-  width: 472px;
+  width: 426px;
   height: 431px;
-  left: 34px;
-  top: 485px;
   margin-left: 1rem;
   margin-top: 3rem;
-  border-radius: 1.3rem;
-}
-main .second-content {
-  margin-left: 0;
-  margin-right: 2rem;
+  border-top-left-radius: 1.3rem;
+  border-bottom-left-radius: 1.3rem;
 }
 main .second-content .second-content-img {
   display: flex;
@@ -65,8 +60,9 @@ main .second-content .second-content-img {
   align-items: center;
 }
 main .second-content .second-content-img img.img-1 {
-  width: 229px;
+  width: 230px;
   height: 193px;
+  margin-left: -1rem;
   margin-top: 2rem;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -74,8 +70,7 @@ main .second-content .second-content-img img.img-1 {
 main .second-content .second-content-img img.img-2 {
   width: 220px;
   height: 193px;
-  margin-left: 2.5rem;
-  margin-right: 3rem;
+  margin-left: 2rem;
   margin-right: 3.5rem;
   margin-top: 2rem;
   border-radius: 1rem;
@@ -101,18 +96,21 @@ main .second-content .second-content-info p {
 }
 main .third-content {
   text-align: center;
+  margin: 5.5rem 0;
 }
 main .third-content img {
   padding: 1.5rem;
   background-color: #f06819;
   border-radius: 1rem;
+  margin: 1rem;
+  margin-bottom: 1.5rem;
 }
 main .third-content h3 {
   font-weight: 900;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  margin: 2rem 2rem;
+  margin: 1.5rem 2rem;
   padding: 0 5rem;
   color: #152441;
 }
@@ -122,6 +120,12 @@ main .third-content p {
   line-height: 26px;
   color: #7b8cad;
   padding: 0 3rem;
+}
+main .third-content .compatible,
+main .third-content .bluetooth,
+main .third-content .battery,
+main .third-content .light {
+  margin: 6rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */
