@@ -2,6 +2,79 @@
 
 main {
 
+    .first-content {
+
+        .heading-content {
+            padding: 1rem;
+
+            h1 {
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 48px;
+                text-transform: uppercase;
+                color: variables.$font-color-dark;
+            }
+    
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: variables.$font-color-light;
+            }
+        }
+
+        .heading-btn {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+
+            button {
+                border: none;
+                background-color: variables.$primary-color;
+                padding: 0.7rem 0;
+                border-radius: 8px;
+                color: variables.$background-color;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 700;
+                text-transform: uppercase;
+                font-style: normal;
+                width: 170px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: variables.$primary-color-hover;
+                    color: variables.$background-color;
+                }
+            }
+
+            span {
+                padding: 0 2rem;
+                font-size: 16px;
+                line-height: 26px;
+                text-transform: uppercase;
+                font-weight: 700;
+                color: variables.$font-color-light;
+                letter-spacing: 0.1rem;
+            }
+        }
+
+        .heading-img {
+
+            img { 
+                width: 472px;
+                height: 431px;
+                left: 34px;
+                top: 485px;
+                margin-left: 1rem;
+                margin-top: 3rem;
+                border-radius: 1.3rem;
+
+            }
+        }
+        
+
+    }
 
     img {
         background-color: variables.$primary-color;
