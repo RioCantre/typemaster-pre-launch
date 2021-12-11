@@ -80,8 +80,30 @@ main .first-content .heading-img img {
   margin-top: 3rem;
   border-radius: 1.3rem;
 }
-main img {
-  background-color: #f06819;
+main .second-content {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+main .second-content .second-content-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .second-content .second-content-img img.img-1 {
+  width: 229px;
+  height: 193px;
+  margin-top: 2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+main .second-content .second-content-img img.img-2 {
+  width: 220px;
+  height: 193px;
+  margin-left: 2.5rem;
+  margin-right: 3rem;
+  margin-right: 3.5rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
 }
 
 footer {
