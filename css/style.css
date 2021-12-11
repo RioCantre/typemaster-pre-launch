@@ -105,23 +105,48 @@ main .second-content .second-content-img img.img-2 {
   margin-top: 2rem;
   border-radius: 1rem;
 }
-main .second-content-info {
+main .second-content .second-content-info {
   text-align: center;
   padding: 1rem;
+  margin: 1rem;
 }
-main .second-content-info h2 {
+main .second-content .second-content-info h2 {
   font-weight: 900;
   font-size: 32px;
   line-height: 36px;
   text-transform: uppercase;
   color: #152441;
-  padding: 2rem;
+  padding: 1rem;
 }
-main .second-content-info p {
+main .second-content .second-content-info p {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #7b8cad;
+}
+main .third-content {
+  text-align: center;
+}
+main .third-content img {
+  padding: 1.5rem;
+  background-color: #f06819;
+  border-radius: 1rem;
+}
+main .third-content h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin: 2rem 2rem;
+  padding: 0 5rem;
+  color: #152441;
+}
+main .third-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8cad;
+  padding: 0 3rem;
 }
 
 footer {
