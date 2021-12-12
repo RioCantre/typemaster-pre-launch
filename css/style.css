@@ -23,6 +23,13 @@ header button:hover {
   color: white;
 }
 
+@media (min-width: 768px) {
+  main .first-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 main .first-content .heading-content {
   padding: 1rem;
 }

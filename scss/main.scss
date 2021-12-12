@@ -4,6 +4,12 @@ main {
 
     .first-content {
 
+        @media (min-width: 768px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         .heading-content {
             padding: 1rem;
 
