@@ -108,6 +108,11 @@ main .first-content .heading-img .heading-box {
     display: none;
   }
 }
+@media (min-width: 768px) and (min-width: 1068px) {
+  main .first-content .heading-img .heading-box {
+    display: flex;
+  }
+}
 main .second-content .second-content-img {
   display: flex;
   justify-content: center;

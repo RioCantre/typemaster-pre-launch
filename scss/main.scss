@@ -101,6 +101,11 @@ main {
 
                 @media (min-width: 768px) {
                     display: none;
+
+                    @media (min-width: 1068px) {
+                        display: flex;
+                        
+                    }
                     
                 }
             }
