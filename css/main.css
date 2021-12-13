@@ -146,6 +146,13 @@ main .second-content .second-content-info {
   padding: 1rem;
   margin: 1rem;
 }
+@media (min-width: 768px) {
+  main .second-content .second-content-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 main .second-content .second-content-info h2 {
   font-weight: 900;
   font-size: 32px;
@@ -163,6 +170,13 @@ main .second-content .second-content-info p {
 main .third-content {
   text-align: center;
   margin: 5.5rem 0;
+}
+@media (min-width: 1098px) {
+  main .third-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 main .third-content img {
   padding: 1.5rem;
@@ -204,6 +218,14 @@ main .third-content .battery img {
 }
 main .third-content .light img {
   padding: 1.1rem;
+}
+@media (min-width: 768px) {
+  main .third-content .group-1,
+main .third-content .group-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

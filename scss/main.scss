@@ -178,6 +178,13 @@ main {
             text-align: center;
             padding: 1rem;
             margin: 1rem;
+
+
+            @media (min-width: 768px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
     
             h2 {
                 font-weight: 900;
@@ -201,6 +208,12 @@ main {
     .third-content {
         text-align: center;
         margin: 5.5rem 0;
+
+        @media (min-width: 1098px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         img {
             padding: 1.5rem;
@@ -249,6 +262,17 @@ main {
 
         .light img{
             padding: 1.1rem;
+        }
+
+        .group-1,
+        .group-2 {
+
+            @media (min-width: 768px) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
         }
     }
     
