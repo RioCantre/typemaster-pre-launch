@@ -78,6 +78,11 @@ main .first-content .heading-img .heading-box {
   margin-top: 3rem;
   margin-left: 2rem;
 }
+@media (min-width: 768px) {
+  main .first-content .heading-img .heading-box {
+    display: none;
+  }
+}
 main .second-content .second-content-img {
   display: flex;
   justify-content: center;
@@ -90,33 +95,51 @@ main .second-content .second-content-img .second-content-box {
   background-color: #e8eff2;
   border-radius: 1.3rem;
   margin-right: 2rem;
-  display: none;
+  margin-left: -10rem;
 }
-@media (min-width: 460px) and (max-width: 600px) {
+@media screen and (max-width: 660px) {
   main .second-content .second-content-img .second-content-box {
     display: block;
   }
 }
-main .second-content .second-content-img img.img-1 {
-  width: 230px;
+main .second-content .second-content-img .img-1 {
+  background-image: url(../assets/mobile/Bitmap.png);
+  background-position: center;
+  background-size: cover;
+  width: 229px;
   height: 193px;
-  margin-left: -1.5rem;
+  margin-left: -5rem;
   margin-top: 2rem;
   border-radius: 1rem;
 }
 @media screen and (min-width: 460px) {
-  main .second-content .second-content-img img.img-1 {
+  main .second-content .second-content-img .img-1 {
     margin-left: 0;
     border-radius: 1rem;
   }
 }
-main .second-content .second-content-img img.img-2 {
-  width: 220px;
+@media screen and (min-width: 460px) and (min-width: 640px) {
+  main .second-content .second-content-img .img-1 {
+    width: 214px;
+    height: 320px;
+  }
+}
+main .second-content .second-content-img .img-2 {
+  background-image: url(../assets/mobile/image-glass-and-keyboard.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 320px;
   height: 193px;
   margin-left: 2rem;
   margin-right: 3.5rem;
   margin-top: 2rem;
   border-radius: 1rem;
+}
+@media screen and (min-width: 640px) {
+  main .second-content .second-content-img .img-2 {
+    width: 445px;
+    height: 320px;
+  }
 }
 main .second-content .second-content-info {
   text-align: center;
