@@ -95,8 +95,9 @@ main {
                 height: 431px;
                 margin-left: 1rem;
                 margin-top: 3rem;
-                padding-right: 0;
-                border-radius: 1.3rem;
+                padding-right: 1rem;
+                border-bottom-left-radius: 1.3rem;
+                border-top-left-radius: 1.3rem;
 
                 @media screen and (min-width: 460px) {
                     padding-right: 0;
@@ -128,19 +129,25 @@ main {
                 height: 240px;
                 margin-top: 3rem;
                 margin-left: 2rem;
+                display: none;
 
+                
+                @media screen and (min-width: 460px) {
+                    display: block;
+                    margin-right: -9rem;
 
-                @media screen and (min-width: 768px) {
-                    display: none;
-
-                    @media screen and (min-width: 1040px) {
-                        display: block;
-                        float: right;
-                        right: 0;
-                        margin-right: -18rem;
-                        margin-top: 0;
+                    @media screen and (min-width: 768px) {
+                        display: none;
+    
+                        @media screen and (min-width: 1040px) {
+                            display: block;
+                            float: right;
+                            right: 0;
+                            margin-right: -18rem;
+                            margin-top: 0;
+                        }
+                        
                     }
-                    
                 }
             }
         }
@@ -149,6 +156,12 @@ main {
     }
 
     .second-content {
+
+        @media screen and (min-width: 1040px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         
 
         .second-content-img {
@@ -158,6 +171,7 @@ main {
 
             @media screen and (min-width: 768px) {
                 margin: 0 2rem;
+
             }
 
             .second-content-box{
@@ -168,13 +182,20 @@ main {
                 border-radius: 1.3rem;
                 margin-right: 2rem;
                 margin-left: -10rem;
+                display: none;
 
-                @media screen and  (min-width: 600px){
+                @media screen and  (min-width:600px){
                     display: block;
                     margin-top: 10rem;
 
                     @media screen and (min-width: 768px) {
                         display: none;
+
+                        @media screen and (min-width: 1040px) {
+                            display: block;
+                            margin-top: 20rem;
+                            margin-left: -17.5rem;
+                        }
                     }
                 }
             }
@@ -203,6 +224,14 @@ main {
                         @media screen and (min-width: 768px) {
                             width: 414px;
                             height: 320px;
+
+                            @media screen and (min-width: 1040px) {
+                                background-image: url(../assets/desktop/Bitmap3.png);
+                                background-position: center;
+                                background-size: cover;
+                                width: 255px;
+                                height: 480px;
+                            }
                         }
                     }
                 }
@@ -231,6 +260,14 @@ main {
                         width: 745px;
                         height: 320px;
                         margin-right: 0;
+
+                        @media screen and (min-width: 1040px) {
+                            background-image: url(../assets/desktop/image-glass-and-keyboard.jpg);
+                            background-position: center;
+                            background-size: cover;
+                            width: 445px;
+                            height: 480px;
+                        }
                     }
 
                 }
@@ -249,6 +286,12 @@ main {
                 align-items: center;
                 margin: 1rem;
                 text-align: left;
+
+                @media screen and (min-width: 1040px) {
+                    display: block;
+                    justify-content: center;
+                    align-items: center;
+                }
             }
     
             h2 {
@@ -266,6 +309,10 @@ main {
                 font-size: 16px;
                 line-height: 26px;
                 color: variables.$font-color-light;
+
+                @media screen and (min-width: 1040px) {
+                    padding: 1rem;
+                }
             }
         }
     }
@@ -341,6 +388,10 @@ main {
 
                 @media screen and (min-width: 768px) {
                     margin-top: 0;
+
+                    @media screen and (min-width: 1040px) {
+                        margin-top: 1rem;
+                    }
                 }
             }
 
@@ -404,3 +455,4 @@ main {
     
 
 }
+

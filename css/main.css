@@ -86,8 +86,9 @@ main .first-content .heading-img .keyboard {
   height: 431px;
   margin-left: 1rem;
   margin-top: 3rem;
-  padding-right: 0;
-  border-radius: 1.3rem;
+  padding-right: 1rem;
+  border-bottom-left-radius: 1.3rem;
+  border-top-left-radius: 1.3rem;
 }
 @media screen and (min-width: 460px) {
   main .first-content .heading-img .keyboard {
@@ -117,19 +118,33 @@ main .first-content .heading-img .heading-box {
   height: 240px;
   margin-top: 3rem;
   margin-left: 2rem;
+  display: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 460px) {
+  main .first-content .heading-img .heading-box {
+    display: block;
+    margin-right: -9rem;
+  }
+}
+@media screen and (min-width: 460px) and (min-width: 768px) {
   main .first-content .heading-img .heading-box {
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (min-width: 1040px) {
+@media screen and (min-width: 460px) and (min-width: 768px) and (min-width: 1040px) {
   main .first-content .heading-img .heading-box {
     display: block;
     float: right;
     right: 0;
     margin-right: -18rem;
     margin-top: 0;
+  }
+}
+@media screen and (min-width: 1040px) {
+  main .second-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 main .second-content .second-content-img {
@@ -150,6 +165,7 @@ main .second-content .second-content-img .second-content-box {
   border-radius: 1.3rem;
   margin-right: 2rem;
   margin-left: -10rem;
+  display: none;
 }
 @media screen and (min-width: 600px) {
   main .second-content .second-content-img .second-content-box {
@@ -160,6 +176,13 @@ main .second-content .second-content-img .second-content-box {
 @media screen and (min-width: 600px) and (min-width: 768px) {
   main .second-content .second-content-img .second-content-box {
     display: none;
+  }
+}
+@media screen and (min-width: 600px) and (min-width: 768px) and (min-width: 1040px) {
+  main .second-content .second-content-img .second-content-box {
+    display: block;
+    margin-top: 20rem;
+    margin-left: -17.5rem;
   }
 }
 main .second-content .second-content-img .img-1 {
@@ -193,6 +216,15 @@ main .second-content .second-content-img .img-1 {
     height: 320px;
   }
 }
+@media screen and (min-width: 460px) and (min-width: 600px) and (min-width: 768px) and (min-width: 1040px) {
+  main .second-content .second-content-img .img-1 {
+    background-image: url(../assets/desktop/Bitmap3.png);
+    background-position: center;
+    background-size: cover;
+    width: 255px;
+    height: 480px;
+  }
+}
 main .second-content .second-content-img .img-2 {
   background-image: url(../assets/mobile/image-glass-and-keyboard.jpg);
   background-position: center;
@@ -220,6 +252,15 @@ main .second-content .second-content-img .img-2 {
     margin-right: 0;
   }
 }
+@media screen and (min-width: 600px) and (min-width: 768px) and (min-width: 1040px) {
+  main .second-content .second-content-img .img-2 {
+    background-image: url(../assets/desktop/image-glass-and-keyboard.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 445px;
+    height: 480px;
+  }
+}
 main .second-content .second-content-info {
   text-align: center;
   padding: 1rem;
@@ -232,6 +273,13 @@ main .second-content .second-content-info {
     align-items: center;
     margin: 1rem;
     text-align: left;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1040px) {
+  main .second-content .second-content-info {
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
 }
 main .second-content .second-content-info h2 {
@@ -247,6 +295,11 @@ main .second-content .second-content-info p {
   font-size: 16px;
   line-height: 26px;
   color: #7b8cad;
+}
+@media screen and (min-width: 1040px) {
+  main .second-content .second-content-info p {
+    padding: 1rem;
+  }
 }
 main .third-content {
   text-align: center;
@@ -314,6 +367,11 @@ main .third-content .bluetooth img {
 @media screen and (min-width: 768px) {
   main .third-content .bluetooth img {
     margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1040px) {
+  main .third-content .bluetooth img {
+    margin-top: 1rem;
   }
 }
 main .third-content .bluetooth h3 {
