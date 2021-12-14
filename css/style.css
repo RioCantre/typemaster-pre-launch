@@ -86,7 +86,10 @@ main .first-content .heading-btn span {
 main .first-content .heading-img {
   display: flex;
 }
-main .first-content .heading-img img {
+main .first-content .heading-img .keyboard {
+  background-image: url(../assets/mobile/image-keyboard.jpg);
+  background-position: center;
+  background-size: cover;
   width: 426px;
   height: 431px;
   margin-left: 1rem;
@@ -95,13 +98,13 @@ main .first-content .heading-img img {
   border-radius: 1.3rem;
 }
 @media screen and (min-width: 460px) {
-  main .first-content .heading-img img {
+  main .first-content .heading-img .keyboard {
     padding-right: 0;
     border-radius: 2rem;
   }
 }
 @media screen and (min-width: 460px) and (min-width: 768px) {
-  main .first-content .heading-img img {
+  main .first-content .heading-img .keyboard {
     margin-right: -6rem;
   }
 }
@@ -118,9 +121,10 @@ main .first-content .heading-img .heading-box {
     display: none;
   }
 }
-@media (min-width: 768px) and (min-width: 1068px) {
+@media (min-width: 768px) and (min-width: 1440px) {
   main .first-content .heading-img .heading-box {
     display: flex;
+    margin-right: -4rem;
   }
 }
 main .second-content .second-content-img {
@@ -298,11 +302,6 @@ main .third-content .light {
 }
 main .third-content .compatible img {
   padding: 1.3rem 1.2rem;
-}
-@media (min-width: 768px) {
-  main .third-content .compatible img {
-    margin-bottom: 0;
-  }
 }
 main .third-content .bluetooth img {
   padding: 1.1rem 1.4rem;

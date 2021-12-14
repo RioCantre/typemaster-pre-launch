@@ -73,7 +73,10 @@ main {
         .heading-img {
             display: flex;
 
-            img { 
+            .keyboard { 
+                background-image: url(../assets/mobile/image-keyboard.jpg);
+                background-position: center;
+                background-size: cover;
                 width: 426px;
                 height: 431px;
                 margin-left: 1rem;
@@ -107,9 +110,9 @@ main {
                 @media (min-width: 768px) {
                     display: none;
 
-                    @media (min-width: 1068px) {
+                    @media (min-width: 1440px) {
                         display: flex;
-                        
+                        margin-right: -4rem;
                     }
                     
                 }
@@ -303,10 +306,6 @@ main {
 
         .compatible img{
             padding: 1.3rem 1.2rem;
-
-            @media (min-width: 768px) {
-                margin-bottom: 0;
-            }
         }
 
         .bluetooth {
