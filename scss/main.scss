@@ -1,6 +1,9 @@
 @use 'variables';
 
 main {
+    @media screen and (min-width: 1040px) {
+        margin-top: 7rem;
+    }
 
     .first-content {
 
@@ -112,7 +115,8 @@ main {
                             background-size: cover;
                             width: 540px;
                             height: 480px;  
-                            margin: 0;    
+                            margin: 0;  
+                            border-radius: 1rem;  
                         }
                         
                     }
@@ -146,7 +150,8 @@ main {
                             margin-right: -17rem;
                             margin-top: 0;
                             width: 255px;
-                            height: 240px;  
+                            height: 240px; 
+                            border-radius: 1rem; 
                         }
                         
                     }
