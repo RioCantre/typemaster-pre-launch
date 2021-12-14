@@ -112,7 +112,7 @@ main {
                             background-size: cover;
                             width: 540px;
                             height: 480px;  
-                            margin: 0 1rem;    
+                            margin: 0;    
                         }
                         
                     }
@@ -143,8 +143,10 @@ main {
                             display: block;
                             float: right;
                             right: 0;
-                            margin-right: -18rem;
+                            margin-right: -17rem;
                             margin-top: 0;
+                            width: 255px;
+                            height: 240px;  
                         }
                         
                     }
@@ -193,8 +195,10 @@ main {
 
                         @media screen and (min-width: 1040px) {
                             display: block;
-                            margin-top: 20rem;
-                            margin-left: -17.5rem;
+                            margin-top: 17rem;
+                            margin-left: -19rem;
+                            width: 255px;
+                            height: 236px;
                         }
                     }
                 }
