@@ -4,10 +4,15 @@ header {
   align-items: center;
   margin: 1.8rem 1rem;
 }
+@media screen and (min-width: 1040px) {
+  header {
+    margin-top: 3.5rem;
+  }
+}
 header button {
   border: none;
   background-color: #e8eff2;
-  padding: 0.7rem 0;
+  padding: 1rem 0.2rem;
   border-radius: 8px;
   color: #162441;
   font-size: 16px;
@@ -15,8 +20,13 @@ header button {
   font-weight: 700;
   text-transform: uppercase;
   font-style: normal;
-  width: 170px;
+  width: 175px;
   cursor: pointer;
+}
+@media screen and (min-width: 1040px) {
+  header button {
+    width: 175px;
+  }
 }
 header button:hover {
   background-color: #162441;
@@ -25,7 +35,7 @@ header button:hover {
 
 @media screen and (min-width: 1040px) {
   main {
-    margin-top: 7rem;
+    margin-top: 5rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -52,6 +62,13 @@ main .first-content .heading-content h1 {
   text-transform: uppercase;
   color: #152441;
 }
+@media screen and (min-width: 1040px) {
+  main .first-content .heading-content h1 {
+    margin: 0;
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
 main .first-content .heading-content p {
   font-weight: 400;
   font-size: 16px;
@@ -60,7 +77,10 @@ main .first-content .heading-content p {
 }
 @media screen and (min-width: 1040px) {
   main .first-content .heading-content p {
-    margin: 4rem 0;
+    margin: 1rem 0;
+    margin-right: 5rem;
+    font-size: 18px;
+    line-height: 26px;
   }
 }
 main .first-content .heading-btn {
@@ -76,7 +96,7 @@ main .first-content .heading-btn {
 main .first-content .heading-btn button {
   border: none;
   background-color: #f06819;
-  padding: 0.7rem 0;
+  padding: 1rem 0.2rem;
   border-radius: 8px;
   color: white;
   font-size: 16px;
@@ -86,6 +106,13 @@ main .first-content .heading-btn button {
   font-style: normal;
   width: 170px;
   cursor: pointer;
+}
+@media screen and (min-width: 1040px) {
+  main .first-content .heading-btn button {
+    width: 175px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 main .first-content .heading-btn button:hover {
   background-color: #ff9b61;

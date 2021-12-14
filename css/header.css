@@ -4,10 +4,15 @@ header {
   align-items: center;
   margin: 1.8rem 1rem;
 }
+@media screen and (min-width: 1040px) {
+  header {
+    margin-top: 3.5rem;
+  }
+}
 header button {
   border: none;
   background-color: #e8eff2;
-  padding: 0.7rem 0;
+  padding: 1rem 0.2rem;
   border-radius: 8px;
   color: #162441;
   font-size: 16px;
@@ -15,8 +20,13 @@ header button {
   font-weight: 700;
   text-transform: uppercase;
   font-style: normal;
-  width: 170px;
+  width: 175px;
   cursor: pointer;
+}
+@media screen and (min-width: 1040px) {
+  header button {
+    width: 175px;
+  }
 }
 header button:hover {
   background-color: #162441;

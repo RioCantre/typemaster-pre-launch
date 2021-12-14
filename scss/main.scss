@@ -2,7 +2,7 @@
 
 main {
     @media screen and (min-width: 1040px) {
-        margin-top: 7rem;
+        margin-top: 5rem;
     }
 
     .first-content {
@@ -28,6 +28,12 @@ main {
                 line-height: 48px;
                 text-transform: uppercase;
                 color: variables.$font-color-dark;
+
+                @media screen and (min-width: 1040px) {
+                    margin: 0;
+                    font-size: 56px;
+                    line-height: 56px;
+                }
             }
     
             p {
@@ -37,7 +43,10 @@ main {
                 color: variables.$font-color-light;
 
                 @media screen and (min-width: 1040px) {
-                    margin: 4rem 0;
+                    margin: 1rem 0;
+                    margin-right: 5rem;
+                    font-size: 18px;
+                    line-height: 26px;
                 }
             }
         }
@@ -54,7 +63,7 @@ main {
             button {
                 border: none;
                 background-color: variables.$primary-color;
-                padding: 0.7rem 0;
+                padding: 1rem 0.2rem;
                 border-radius: 8px;
                 color: variables.$background-color;
                 font-size: 16px;
@@ -64,6 +73,12 @@ main {
                 font-style: normal;
                 width: 170px;
                 cursor: pointer;
+
+                @media screen and (min-width: 1040px) {
+                    width: 175px;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
 
                 &:hover {
                     background-color: variables.$primary-color-hover;
@@ -82,7 +97,6 @@ main {
 
                 @media screen and (min-width: 768px) {
                     letter-spacing: 0rem;
-                        
                 }
             }
         }
